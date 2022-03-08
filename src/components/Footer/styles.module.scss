@@ -1,0 +1,9 @@
+@import '../../styles/colors.scss';
+
+.footer {
+  height: 48px;
+  text-align: center;
+  border-top: 2px solid $gray-300;
+  line-height: 48px;
+  color: $gray-850;
+}
