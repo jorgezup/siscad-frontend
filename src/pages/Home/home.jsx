@@ -7,7 +7,7 @@ import image2 from './images/image2.svg'
 export default function Home() {
   return (
     <Layout>
-      <div style={{minHeight: '80vh'}} >
+      <div>
         <div className={styles.header}>
           <h2>Seja bem-vindo, <span>Nome Professor</span></h2>
         </div>

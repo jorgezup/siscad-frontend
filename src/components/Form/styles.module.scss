@@ -1,0 +1,69 @@
+@import "../../styles/colors.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc8c8;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 40px;
+  h1 {
+    color: $gray-850;
+    text-align: center;
+  }
+}
+
+.newSubjectForm {
+  width: 620px;
+  height: 100%;
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 10px;
+
+    input,
+    select {
+      border: 1px solid $gray-100;
+      padding: 4px;
+      border-radius: 4px;
+    }
+
+    textarea {
+      resize: none;
+      border: 1px solid $gray-100;
+      width: 100%;
+      height: 100px;
+    }
+  }
+}
+
+.radios {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  div > label {
+    margin-left: 8px;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+button {
+  padding: 12px 6px;
+  width: 70%;
+  border: 1px solid #ccc8c8;
+}
+
+button:hover {
+  background-color: $gray-100;
+}

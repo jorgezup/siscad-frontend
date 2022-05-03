@@ -1,0 +1,48 @@
+@import "../../styles/colors.scss";
+
+.table {
+  margin-top: 30px;
+
+  width: 100%;
+  border-spacing: 0 0.5rem;
+
+  th {
+    color: $gray-900;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    // text-align: left;
+    line-height: 1.5rem;
+  }
+
+  tbody {
+    tr {
+      background: rgba(0, 0, 0, 0.03);
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.09);
+      }
+
+      td {
+        padding: 1rem;
+        border: 0;
+        color: $gray-800;
+        text-align: center;
+
+        &:last-of-type {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+
+          i {
+            svg {
+              width: 1.2rem;
+              height: 1.2rem;
+            }
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

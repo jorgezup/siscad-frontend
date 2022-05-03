@@ -1,0 +1,30 @@
+@import "../../styles/colors.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+button {
+  padding: 12px 6px;
+  width: 70%;
+  border: 1px solid #ccc8c8;
+}
+
+button:hover {
+  background-color: $gray-100;
+}
